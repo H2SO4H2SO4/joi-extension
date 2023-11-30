@@ -5,6 +5,7 @@ This is a NSFW Silly Tavern extension that gives you a Jerk off instruction  via
 
 You can customize dictionary.js to fit your needs. Each text needs at least one entry.
 A jerk text must be a multiple of 3 (like "up","and","down").
+If your TTS voice speaks Klingon then you also have to translate the dictionary into Klingon
 
 ## Installation and Usage
 
