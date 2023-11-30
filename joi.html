@@ -1,0 +1,60 @@
+<!-- You might want to add additional HTML elements to ST.
+    It's good practice to separate it out from your code -->
+<div class="example-extension-settings">
+	<div class="inline-drawer">
+
+
+		<div class="inline-drawer-toggle inline-drawer-header">
+			<b>Jerk off instructions NSFW</b>
+			<div class="inline-drawer-icon fa-solid fa-circle-chevron-down down"></div>
+		</div>
+		<div class="inline-drawer-content">
+			<div class="example-extension_block flex-container">
+				<input id="joi_button" class="menu_button" type="submit" value="Start jerking" />
+			</div>
+			
+			<label for="joi_initial_delay">Initial Delay <span id="joi_initial_delay_value"></span> sec</label>
+			<input id="joi_initial_delay" type="range" min="10" max="180" step="1" value="{{initial_delay}}" />
+
+			<label for="joi_loop_duration">Loop Duration <span id="joi_loop_duration_value"></span> sec</label>
+			<input id="joi_loop_duration" type="range" min="10" max="180" step="1" value="{{loop_duration}}" />
+
+			<label for="joi_leave_loop">Leave Loop Probability <span id="joi_leave_loop_value"></span>
+				&#037;</label>
+			<input id="joi_leave_loop" type="range" min="0" max="100" step="1" value="{{leave_loop}}" />
+
+			<label for="joi_encourage_loop">Encourage Per Loop <span id="joi_encourage_loop_value"></span></label>
+			<input id="joi_encourage_loop" type="range" min="0" max="5" step="1" value="{{encourage_loop}}" />
+
+			<label for="joi_leave_joi">Leave JOI Probability <span id="joi_leave_joi_value"></span>
+				&#037;</label>
+			<input id="joi_leave_joi" type="range" min="0" max="100" step="1" value="{{leave_joi}}" />
+
+			<label for="joi_cum">Chance to Cum <span id="joi_cum_value"></span>
+				&#037;</label>
+			<input id="joi_cum" type="range" min="0" max="100" step="1" value="{{cum}}" />
+
+			<label for="joi_magic_words1" id="joi_magic_words1_label">Start a new JOI if the character uses <b>one</b> of these comma-separated words or phrases:</label>
+
+			<textarea rows="3"
+				class="text_pole textarea_compact" id="joi_magic_words1" style="height: 32px;">{{magic_words1}}</textarea>
+				
+			<label for="joi_magic_words2" id="joi_magic_words2_label"><b>and</b> character uses <b>one</b> of these comma-separated words or phrases:</label>
+
+			<textarea rows="3"
+				class="text_pole textarea_compact" id="joi_magic_words2" style="height: 32px;">{{magic_words2}}</textarea>
+				
+			<label for="joi_magic_words3" id="joi_magic_words3_label"><b>and</b> character uses <b>one</b> of these comma-separated words or phrases:</label>
+
+			<textarea rows="3"
+				class="text_pole textarea_compact" id="joi_magic_words3" style="height: 32px;">{{magic_words3}}</textarea>
+				
+			<label for="joi_magic_words4" id="joi_magic_words4_label"><b>and</b> character is <b>not</b> using <b>any</b> of these comma-separated words or phrases:</label>
+
+			<textarea rows="3"
+				class="text_pole textarea_compact" id="joi_magic_words4" style="height: 32px;">{{magic_words4}}</textarea>
+
+			<hr class="sysHR" />
+		</div>
+	</div>
+</div>
