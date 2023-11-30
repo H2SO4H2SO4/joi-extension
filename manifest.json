@@ -1,7 +1,7 @@
 {
     "display_name": "Jerk off instruction NSFW",
     "loading_order": 9,
-    "requires": [TTS],
+    "requires": [],
     "optional": [],
     "js": "index.js",
     "css": "style.css",
